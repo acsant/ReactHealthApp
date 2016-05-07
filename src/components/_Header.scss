@@ -1,5 +1,15 @@
+.img {
+	width: 300px;
+	margin: 0 auto;
+}
+
 .img__header {
 	width: 250px;
 	height: 123.5px;
+	display: block;
+	margin-top: 60px;
+	margin-bottom: 128.5px;
+	margin-left: auto;
+	margin-right: auto;
 	object-fit: contain;
 }

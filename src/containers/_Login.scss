@@ -1,0 +1,60 @@
+@import "../../styles/toolkit";
+
+.form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.input {
+	width: 247px;
+  	height: 41px;
+  	display: block;
+  	padding-left:  50px;
+  	vertical-align: middle;
+  	margin-top: 20px;
+  	position: relative;
+  	font-family: $font-family;
+  	font-size: $input-size;
+	object-fit: contain;
+}
+
+.input__email {
+	background: url('../../images/email.svg') no-repeat scroll 20px 20px;
+  	background-position: 15px;
+}
+
+.input__password {
+	background: url('../../images/passwordimg.svg') no-repeat scroll 20px 20px;
+  	background-position: 15px;
+}
+
+.input--darkblueborder {
+	border-radius: 100px;
+	border: solid 1px $darkish-blue-color;
+}
+
+.input__next {
+	background-color: $darkish-blue-color;
+	text-align: center;
+	font-family: $font-family-bold;
+	font-size: $font-size;
+	color: $white-color;
+}
+
+.btn {
+	width: 300px;
+  	height: 45px;
+  	margin-top: 20px;
+}
+
+.btn:active {
+	background-color: $active-color;
+}
+
+.btn:focus {
+	outline: 0;
+}
+
+.input:focus {
+	outline: 0;
+}
