@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { login } from '../actions';
+import { userLogin } from '../actions/Action';
 
 let Login = ({ dispatch }) => {
 	let username, password

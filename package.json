@@ -11,17 +11,28 @@
   "dependencies": {
     "babel": "^6.5.2",
     "bem-react": "0.0.10",
+    "css": "^2.2.1",
+    "css-loader": "^0.23.1",
     "es6-promise": "^3.1.2",
     "events": "^1.1.0",
     "express": "^4.13.4",
+    "img-loader": "^1.2.2",
+    "node-sass": "^3.7.0",
     "object-assign": "^4.1.0",
     "react": "^15.0.2",
     "react-redux": "^4.4.5",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "sass": "^0.5.0",
+    "sass-loader": "^3.2.0",
+    "style": "0.0.3",
+    "style-loader": "^0.13.1"
   },
   "devDependencies": {
     "babel-preset-react": "^6.5.0",
-    "jshint": "^2.9.2"
+    "jshint": "^2.9.2",
+    "node-sass": "^3.7.0",
+    "sass-loader": "^3.2.0",
+    "webpack": "^1.13.0"
   },
   "esversion": 6
 }

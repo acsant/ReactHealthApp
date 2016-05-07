@@ -18,6 +18,6 @@ app.listen(port, function(error) {
 	if (error) {
 		console.error(error)
 	} else {
-		console.info("==> Listeneing on port %s. Open http://localhost:%s/ in your browser.", port, port)
+		console.info("==> 🌎 Listeneing on port %s. Open http://localhost:%s/ in your browser.", port, port)
 	}
 })
